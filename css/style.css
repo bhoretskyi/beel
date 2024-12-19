@@ -1,56 +1,86 @@
 /* 1. Use a more-intuitive box-sizing model */
-*, *::before, *::after {
-    box-sizing: border-box;
-  }
-  
-  /* 2. Remove default margin */
-  * {
-    margin: 0;
-  }
-  
-  body {
-    /* 3. Add accessible line-height */
-    line-height: 1.5;
-    /* 4. Improve text rendering */
-    -webkit-font-smoothing: antialiased;
-  }
-  
-  /* 5. Improve media defaults */
-  img, picture, video, canvas, svg {
-    display: block;
-    max-width: 100%;
-  }
-  
-  /* 6. Inherit fonts for form controls */
-  input, button, textarea, select {
-    font: inherit;
-  }
-  
-  /* 7. Avoid text overflows */
-  p, h1, h2, h3, h4, h5, h6 {
-    overflow-wrap: break-word;
-  }
-  
-  /* 8. Improve line wrapping */
-  p {
-    text-wrap: pretty;
-  }
-  h1, h2, h3, h4, h5, h6 {
-    text-wrap: balance;
-  }
-  
-  /*
-    9. Create a root stacking context
-  */
-  #root, #__next {
-    isolation: isolate;
-  }
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* 2. Remove default margin */
+* {
+  margin: 0;
+}
 
 body {
-    line-height: 1;
-    height: 100%;
-    font-family: Poppins;
-  }
+  /* 3. Add accessible line-height */
+  line-height: 1.5;
+  /* 4. Improve text rendering */
+  -webkit-font-smoothing: antialiased;
+}
+
+/* 5. Improve media defaults */
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+/* 6. Inherit fonts for form controls */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* 7. Avoid text overflows */
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+/* 8. Improve line wrapping */
+p {
+  text-wrap: pretty;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-wrap: balance;
+}
+
+/*
+    9. Create a root stacking context
+  */
+#root,
+#__next {
+  isolation: isolate;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+body {
+  line-height: 1;
+  height: 100%;
+  font-family: Poppins;
+}
 
 .wrapper {
   min-width: 100%;
@@ -62,4 +92,133 @@ body {
   margin: 0px auto;
   padding-right: 18px;
   padding-left: 18px;
+}
+
+/* header */
+.header_container {
+  display: flex;
+  justify-content: center;
+  padding-top: 68px;
+  padding-bottom: 35px;
+}
+
+/* about */
+.about_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 47px;
+}
+.about_title {
+  margin-bottom: 35px;
+  font-weight: 500;
+  font-size: 38px;
+}
+
+.about_text_container {
+  margin-bottom: 20px;
+  text-align: center;
+}
+.about_text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+/* footer */
+.footer_container {
+  color: white;
+  background-color: black;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.store_buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.store_button {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 17px;
+  border: 2px solid #a6a6a6;
+  border-radius: 10px;
+  width: 202px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.store_button:hover {
+  background-color: #333;
+  transform: translateY(-2px);
+}
+
+.store_button div {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.store_button p {
+  font-size: 12px;
+  color: #ccc;
+  margin-bottom: 7px;
+}
+
+.store_button h2 {
+  font-size: 18px;
+  color: #fff;
+}
+.button_img {
+  margin-right: 16px;
+}
+
+.footer_info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.footer_info_title {
+font-size: 38px;
+font-weight: 500;
+line-height: 57px;
+margin-bottom: 35px;
+}
+
+.footer_nav_list {
+  display: flex;
+  gap: 25px;
+}
+
+.footer_language {
+  display: flex;
+  align-items: center;
+}
+
+#language {
+  margin-top: 10px;
+  padding: 5px 10px;
+  font-size: 14px;
+  background-color: black;
+  color: #fff;
+  cursor: pointer;
+  border: none;
+}
+
+#language option {
+  background-color: black;
+  color: #fff;
+}
+
+#language:focus {
+  outline: none;
+  border-color: #777;
+}
+
+#language:hover {
+  background-color: black;
 }
