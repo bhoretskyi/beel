@@ -274,3 +274,45 @@ body {
 .footer_main {
   padding-bottom: 30px;
 }
+
+
+
+/* terms */
+
+.terms_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.terms_hero {
+font-size: 38px;
+font-weight: 500;
+line-height: 52px;
+margin-bottom: 20px;
+
+}
+.terms_container h2 {
+  margin-bottom: 50px;
+font-size: 26px;
+font-weight: 600;
+line-height: 33.6px;
+letter-spacing: 0%;
+text-align: left;
+}
+.terms_text {
+font-size: 15.5px;
+font-weight: 400;
+line-height: 20.8px;
+letter-spacing: 0.03px;
+text-align: left;
+margin-bottom: 60px;
+}
+.terms_bold_text {
+font-size: 16px;
+font-weight: 600;
+line-height: 20.8px;
+letter-spacing: 0.03px;
+margin-bottom: 20px;
+}
