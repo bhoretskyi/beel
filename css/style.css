@@ -275,8 +275,6 @@ body {
   padding-bottom: 30px;
 }
 
-
-
 /* terms */
 
 .terms_container {
@@ -285,34 +283,92 @@ body {
   align-items: center;
 }
 
-
 .terms_hero {
-font-size: 38px;
-font-weight: 500;
-line-height: 52px;
-margin-bottom: 20px;
-
+  font-size: 38px;
+  font-weight: 500;
+  line-height: 52px;
+  margin-bottom: 20px;
 }
 .terms_container h2 {
   margin-bottom: 50px;
+  font-size: 26px;
+  font-weight: 600;
+  line-height: 33.6px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.terms_text {
+  font-size: 15.5px;
+  font-weight: 400;
+  line-height: 20.8px;
+  letter-spacing: 0.03px;
+  text-align: left;
+  margin-bottom: 60px;
+}
+.terms_bold_text {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20.8px;
+  letter-spacing: 0.03px;
+  margin-bottom: 20px;
+}
+
+/* contact */
+.contact_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.contact_hero {
+  font-size: 38px;
+  font-weight: 500;
+  line-height: 57px;
+  margin-bottom: 35px;
+}
+
+.contact_wrapper {
+  margin-bottom: 100px;
+  width: 100%;
+  border-radius: 8px;
+
+  box-shadow: 2px 4px 20px 0px rgba(34, 90, 89, 0.2);
+  background: rgb(255, 255, 255);
+}
+.contact_connect {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+border-bottom: 1px solid rgb(220, 220, 222);
+}
+.contact_list_item {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+border-bottom: 1px solid rgb(220, 220, 222);
+}
+
+.contact_img {
+  margin-bottom: 15px;
+}
+.contact_list_title {
+ 
 font-size: 26px;
-font-weight: 600;
-line-height: 33.6px;
+font-weight: 400;
+line-height: 39px;
 letter-spacing: 0%;
 text-align: left;
 }
-.terms_text {
-font-size: 15.5px;
+.contact_link {
+ 
+font-size: 18px;
 font-weight: 400;
-line-height: 20.8px;
-letter-spacing: 0.03px;
+line-height: 22px;
+letter-spacing: 0%;
 text-align: left;
-margin-bottom: 60px;
-}
-.terms_bold_text {
-font-size: 16px;
-font-weight: 600;
-line-height: 20.8px;
-letter-spacing: 0.03px;
-margin-bottom: 20px;
 }
