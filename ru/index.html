@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,500;1,9..40,500&family=Inter:opsz,wght@14..32,700&family=Poppins:wght@400;500;600&display=swap"
+      href="https://fonts.googleapis.com/css2? family=DM+Sans:ital,opsz,wght@0,9..40,500;1,9..40,500&family=Inter:opsz,wght@14..32,700&family=Poppins:wght@400;500;600&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="/css/style.css" />
@@ -16,17 +16,17 @@
     <div class="wrapper">
       <header>
         <section class="container header_container">
-          <img src="/img/smile 2.svg" alt="icon" width="40" height="40" />
+          <img src="/img/smile 2.svg" alt="иконка" width="40" height="40" />
         </section>
       </header>
       <main>
         <section class="container hero_container">
           <h1 class="hero">
-            Open Your 
+            Открой свой  
             BeelBeel.
           </h1>
           <a href="#" id="download_link">
-            <div><h2 class="hero_btn">Download</h2></div>
+            <div><h2 class="hero_btn">Скачать</h2></div>
           </a>
           <div class="main_store_buttons">
             <a
@@ -41,7 +41,7 @@
                 width="31"
               />
               <div>
-                <p>Download on the</p>
+                <p>Скачать в</p>
                 <h2>App Store</h2>
               </div>
             </a>
@@ -58,7 +58,7 @@
                 height="35"
               />
               <div>
-                <p>GET IT ON</p>
+                <p>ЗАГРУЗИТЬ ИЗ</p>
                 <h2>Google Play</h2>
               </div>
             </a>
@@ -73,46 +73,48 @@
 
               <div>
                 <select class="index_select" id="language" name="language">
-                    <option value="en" selected>English</option>
-                    <option value="ru">Russian</option>
-                    <option value="sp">Spanish</option>
-                    <option value="fr">French</option>
-                    <option value="du">Dutch</option>
-                    <option value="gr">German</option>
-                    <option value="jp">Japanese</option>
-                    <option value="kr">Korean</option>
-                    <option value="pt">Portuguese</option>
-                    <option value="sw">Swedish</option>
+                    <option value="ru" selected>Русский</option>
+                    <option value="en">Английский</option>
+                    <option value="sp">Испанский</option>
+                    <option value="fr">Французский</option>
+                    <option value="du">Голландский</option>
+                    <option value="gr">Немецкий</option>
+                    <option value="jp">Японский</option>
+                    <option value="kr">Корейский</option>
+                    <option value="pt">Португальский</option>
+                    <option value="sw">Шведский</option>
                 </select>
               </div>
             </div>
           </div>
           <nav class="footer_nav">
             <ul class="footer_nav_list">
-              <li><a href="/about.html">About</a></li>
-              <li><a href="#">Privacy</a></li>
-              <li><a href="/terms.html">Terms</a></li>
-              <li><a href="/contact.html">Contact</a></li>
+              <li><a href="/ru/about.html">О нас</a></li>
+              <li><a href="#">Конфиденциальность</a></li>
+              <li><a href="/ru/terms.html">Условия</a></li>
+              <li><a href="/ru/contact.html">Контакты</a></li>
             </ul>
           </nav>
         </section>
       </footer>
     </div>
-   <script src="/js/index.js"></script>
-   <script>document.addEventListener("DOMContentLoaded", function () {
-    const downloadLink = document.getElementById("download_link");
-    const userAgent = navigator.userAgent || navigator.vendor || window.opera;
-  
-    if (/android/i.test(userAgent)) {
-      downloadLink.href =
-        "https://play.google.com/store/apps/details?id=com.example.app";
-    } else if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
-      downloadLink.href = "https://apps.apple.com/us/app/example-app/id123456789";
-    } else {
-      downloadLink.href = "https://example.com";
-    }
-  });</script>
-    
-    
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const downloadLink = document.getElementById("download_link");
+        const userAgent =
+          navigator.userAgent || navigator.vendor || window.opera;
+
+        if (/android/i.test(userAgent)) {
+          downloadLink.href =
+            "https://play.google.com/store/apps/details?id=com.example.app";
+        } else if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
+          downloadLink.href =
+            "https://apps.apple.com/us/app/example-app/id123456789";
+        } else {
+          downloadLink.href = "https://example.com";
+        }
+      });
+    </script>
+     <script src="/js/index.js"></script>
   </body>
 </html>

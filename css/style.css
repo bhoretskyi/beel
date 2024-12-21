@@ -104,13 +104,12 @@ body {
   display: flex;
   justify-content: center;
   padding-top: 68px;
-  padding-bottom: 35px;
 }
 @media screen and (min-width: 1280px) {
   .header_container {
     display: flex;
     justify-content: center;
-    padding-top: 35px;
+    padding-top: 30px;
   }
 }
 
@@ -123,7 +122,7 @@ body {
 }
 @media screen and (min-width: 1280px) {
   .about_container {
-    padding-bottom: 133px;
+    padding-bottom: 123px;
   }
 }
 .about_title {
@@ -138,8 +137,8 @@ body {
     font-weight: 500;
     line-height: 75px;
     letter-spacing: 0px;
-    margin-top: 133px;
-  
+    margin-top: 158px;
+    margin-bottom: 30px;
   }
 }
 
@@ -155,9 +154,8 @@ body {
 
 @media screen and (min-width: 1280px) {
   .about_text {
-  display: none;
+    display: none;
   }
-  
 }
 .desktop_text {
   display: none;
@@ -167,12 +165,13 @@ body {
     display: block;
     margin-bottom: 25px;
     color: rgb(0, 0, 0);
-font-size: 20px;
-font-weight: 400;
-line-height: 30px;
-letter-spacing: 0px;
-text-align: center;
-  }}
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0px;
+    text-align: center;
+  }
+}
 
 /* footer */
 .footer_container {
@@ -186,7 +185,6 @@ text-align: center;
     padding-top: 30px;
     padding-bottom: 5px;
   }
-  
 }
 
 .store_buttons {
@@ -261,13 +259,24 @@ text-align: center;
   align-items: center;
   margin-bottom: 25px;
 }
-
+@media screen and (min-width: 1280px) {
+  .footer_info {
+    
+    margin-bottom: 10px;
+  }
+}
 
 .footer_info_title {
   font-size: 38px;
   font-weight: 500;
   line-height: 57px;
   margin-bottom: 35px;
+}
+@media screen and (min-width: 1280px) {
+  .footer_info_title {
+    
+    margin-bottom: 20px;
+  }
 }
 
 .footer_nav_list {
@@ -300,12 +309,12 @@ text-align: center;
   .footer_language {
     align-items: baseline;
     gap: 25px;
-font-family: DM Sans;
-font-size: 15px;
-font-weight: 500;
-line-height: 20px;
-letter-spacing: 0px;
-text-align: left;
+    font-family: DM Sans;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: left;
   }
 }
 
@@ -344,21 +353,20 @@ text-align: left;
   font-weight: 500;
   line-height: 57px;
   text-align: center;
-  margin-top: 190px;
+  margin-top: 185px;
   margin-bottom: 30px;
 }
 @media screen and (min-width: 1280px) {
   .hero {
-    
     margin-top: 302px;
     margin-bottom: 30px;
     color: rgb(0, 0, 0);
-font-size: 50px;
-font-weight: 500;
-line-height: 75px;
-letter-spacing: 0px;
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 75px;
+    letter-spacing: 0px;
   }
-  }
+}
 .hero_btn {
   display: flex;
   align-items: center;
@@ -379,10 +387,9 @@ letter-spacing: 0px;
 }
 @media screen and (min-width: 1280px) {
   .hero_btn {
-    
     display: none;
   }
-  }
+}
 
 .index_select {
   background-color: white;
@@ -394,20 +401,18 @@ letter-spacing: 0px;
   .footer_main {
     display: flex;
     align-items: baseline;
-    gap:614px;
+    gap: 614px;
   }
+}
+
+@media screen and (min-width: 1280px) {
+  .desktop_footer {
+    display: flex;
+    align-items: baseline;
+    gap: 613px;
+    justify-content: space-between;
   }
-
-
- 
-  @media screen and (min-width: 1280px) {
-    .desktop_footer{
-      display: flex;
-      align-items: baseline;
-      gap: 613px;
-      justify-content: space-between;
-    }
-    }
+}
 
 /* terms */
 
@@ -416,12 +421,36 @@ letter-spacing: 0px;
   flex-direction: column;
   align-items: center;
 }
+@media screen and (min-width: 1280px) {
+  .terms_container {
+    padding-top: 100px;
+  
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .terms_text_wrapper{
+    padding-bottom: 11px;
+  }
+}
 
 .terms_hero {
   font-size: 38px;
   font-weight: 500;
   line-height: 52px;
   margin-bottom: 20px;
+}
+@media screen and (min-width: 1280px) {
+  .terms_hero {
+    color: rgb(22, 24, 35);
+    font-family: Poppins;
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 52px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 31px;
+  }
 }
 .terms_container h2 {
   margin-bottom: 50px;
@@ -431,6 +460,17 @@ letter-spacing: 0px;
   letter-spacing: 0%;
   text-align: left;
 }
+@media screen and (min-width: 1280px) {
+  .terms_container h2 {
+    font-size: 26.58px;
+    font-weight: 600;
+    line-height: 33.6px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 70px;
+  }
+  }
+
 .terms_text {
   font-size: 15.5px;
   font-weight: 400;
@@ -439,6 +479,15 @@ letter-spacing: 0px;
   text-align: left;
   margin-bottom: 60px;
 }
+@media screen and (min-width: 1280px) {
+  .terms_text {
+    
+    margin-bottom: 70px;
+  
+  }
+  }
+
+  
 .terms_bold_text {
   font-size: 16px;
   font-weight: 600;
@@ -453,12 +502,26 @@ letter-spacing: 0px;
   flex-direction: column;
   align-items: center;
 }
+@media screen and (min-width: 1280px) {
+  .contact_container {
+    padding-top: 100px;
+  }
+  }
 .contact_hero {
   font-size: 38px;
   font-weight: 500;
   line-height: 57px;
   margin-bottom: 35px;
 }
+@media screen and (min-width: 1280px) {
+  .contact_hero {
+font-size: 55px;
+font-weight: 600;
+line-height: 57px;
+letter-spacing: 0%;
+text-align: center;
+  }
+  }
 
 .contact_wrapper {
   margin-bottom: 100px;
@@ -468,6 +531,20 @@ letter-spacing: 0px;
   box-shadow: 2px 4px 20px 0px rgba(34, 90, 89, 0.2);
   background: rgb(255, 255, 255);
 }
+@media screen and (min-width: 1280px) {
+  .contact_wrapper {
+    width: 916px;
+  }
+  }
+
+
+
+  @media screen and (min-width: 1280px) {
+   .contact_list {
+    display: flex;
+    flex-wrap: wrap;
+   }
+    }
 .contact_connect {
   padding-top: 40px;
   padding-bottom: 40px;
@@ -485,11 +562,39 @@ letter-spacing: 0px;
   align-items: center;
   box-sizing: border-box;
   border-bottom: 1px solid rgb(220, 220, 222);
-}
 
+}
+@media screen and (min-width: 1280px) {
+  .contact_list_item {
+   min-width: 458px;
+   flex-direction: row;
+   padding-left: 41px;
+  }
+   }
+
+
+   .contact_list_info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   }
+   @media screen and (min-width: 1280px) {
+    .contact_list_info {
+      display: flex;
+      flex-direction: column;
+      align-items: start;
+     }
+     }
 .contact_img {
   margin-bottom: 15px;
 }
+
+@media screen and (min-width: 1280px) {
+  .contact_img {
+    margin-bottom: 0;
+    margin-right: 40px;
+  }
+   }
 .contact_list_title {
   font-size: 26px;
   font-weight: 400;
