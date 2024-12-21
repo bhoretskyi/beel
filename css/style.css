@@ -413,7 +413,10 @@ body {
     justify-content: space-between;
   }
 }
-
+.footer_wrapper {
+  width: 100%;
+  background-color: black;
+}
 /* terms */
 
 .terms_container {
