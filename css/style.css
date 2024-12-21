@@ -137,7 +137,7 @@ body {
     font-weight: 500;
     line-height: 75px;
     letter-spacing: 0px;
-    margin-top: 158px;
+    margin-top: 74px;
     margin-bottom: 30px;
   }
 }
@@ -358,7 +358,7 @@ body {
 }
 @media screen and (min-width: 1280px) {
   .hero {
-    margin-top: 302px;
+    margin-top: 252px;
     margin-bottom: 30px;
     color: rgb(0, 0, 0);
     font-size: 50px;
@@ -401,7 +401,8 @@ body {
   .footer_main {
     display: flex;
     align-items: baseline;
-    gap: 614px;
+    justify-content: space-between;
+    gap: 500px;
   }
 }
 
@@ -409,7 +410,7 @@ body {
   .desktop_footer {
     display: flex;
     align-items: baseline;
-    gap: 613px;
+    gap: 580px;
     justify-content: space-between;
   }
 }
