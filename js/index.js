@@ -3,34 +3,37 @@ document.getElementById("language").addEventListener("change", function () {
 
   switch (language) {
     case "ru":
-      window.location.href = "/ru/index.html";
+      window.location.href = "./ru/index.html";
       break;
     case "sp":
-      window.location.href = "/sp/index.html";
+      window.location.href = "./sp/index.html";
       break;
     case "fr":
-      window.location.href = "/fr/index.html";
+      window.location.href = "./fr/index.html";
       break;
     case "du":
-      window.location.href = "/du/index.html";
+      window.location.href = "./du/index.html";
       break;
     case "gr":
-      window.location.href = "/gr/index.html";
+      window.location.href = "./gr/index.html";
       break;
     case "jp":
-      window.location.href = "/jp/index.html";
+      window.location.href = "./jp/index.html";
       break;
     case "kr":
-      window.location.href = "/kr/index.html"; //
+      window.location.href = "./kr/index.html"; //
       break
     case "pt":
-      window.location.href = "/pt/index.html";
+      window.location.href = "./pt/index.html";
       break;
     case "sw":
-      window.location.href = "/sw/index.html";
+      window.location.href = "./sw/index.html";
+      break;
+      case "en":
+      window.location.href = "./index.html";
       break;
     default:
-      window.location.href = "/index.html";
+      window.location.href = "./index.html";
   }
 });
 
