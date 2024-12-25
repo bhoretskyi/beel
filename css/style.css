@@ -339,6 +339,13 @@ body {
   cursor: pointer;
   border: none;
 }
+@media screen and (min-width: 1280px) {
+  #language {
+   
+    font-size: 15px;
+    
+  }
+}
 
 /* index styles */
 .hero_container {
