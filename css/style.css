@@ -9,8 +9,11 @@
 * {
   margin: 0;
 }
-
+html {
+  height: 100%;
+}
 body {
+  height: 100%;
   /* 3. Add accessible line-height */
   line-height: 1.5;
   /* 4. Improve text rendering */
@@ -84,7 +87,8 @@ body {
 
 .wrapper {
   min-width: 100%;
-  overflow: hidden;
+  /* overflow: hidden; */
+  height: 100%;
 }
 
 .container {
@@ -358,7 +362,7 @@ body {
 }
 @media screen and (min-width: 1280px) {
   .hero {
-    margin-top: 252px;
+    margin-top: 321px;
     margin-bottom: 30px;
     color: rgb(0, 0, 0);
     font-size: 50px;
