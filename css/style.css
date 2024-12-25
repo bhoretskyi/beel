@@ -285,7 +285,7 @@ body {
   display: flex;
   justify-content: space-between;
   gap: 25px;
-  font-size: 18px;
+  font-size: 17px;
   font-weight: 400;
   line-height: 27px;
   letter-spacing: 0px;
@@ -303,9 +303,10 @@ body {
 .footer_language {
   display: flex;
   align-items: baseline;
-  gap: 70px;
+  gap: 64px;
   font-family: Poppins;
-  font-size: 16px;
+  font-size: 17px;
+  margin-bottom: 25px;
 }
 @media screen and (min-width: 1280px) {
   .footer_language {
@@ -317,6 +318,7 @@ body {
     line-height: 20px;
     letter-spacing: 0px;
     text-align: left;
+    margin-bottom: 0;
   }
 }
 
@@ -338,7 +340,7 @@ body {
 #language {
   margin-top: 10px;
   padding: 5px 10px;
-  font-size: 16px;
+  font-size: 17px;
   cursor: pointer;
   border: none;
 }
@@ -444,6 +446,7 @@ body {
   font-weight: 500;
   line-height: 52px;
   margin-bottom: 20px;
+  margin-top: 35px;
 }
 @media screen and (min-width: 1280px) {
   .terms_hero {
@@ -455,6 +458,7 @@ body {
     letter-spacing: 0%;
     text-align: left;
     margin-bottom: 31px;
+    margin-top: 0;
   }
 }
 .terms_container h2 {
@@ -514,6 +518,7 @@ body {
   font-weight: 500;
   line-height: 57px;
   margin-bottom: 35px;
+  margin-top: 35px;
 }
 @media screen and (min-width: 1280px) {
   .contact_hero {
@@ -522,6 +527,7 @@ body {
     line-height: 57px;
     letter-spacing: 0%;
     text-align: center;
+    margin-top: 0;
   }
 }
 
