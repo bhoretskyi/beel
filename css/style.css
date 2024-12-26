@@ -401,7 +401,7 @@ body {
   background-color: white;
 }
 .footer_main {
-  padding-bottom: 30px;
+  padding-bottom: 5px;
 }
 @media screen and (min-width: 1280px) {
   .footer_main {
