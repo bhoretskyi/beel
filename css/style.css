@@ -182,7 +182,7 @@ body {
   color: white;
   background-color: black;
   padding-top: 50px;
-  padding-bottom: 50px;
+  padding-bottom: 5px;
 }
 @media screen and (min-width: 1280px) {
   .footer_container {
@@ -616,10 +616,23 @@ body {
   letter-spacing: 0%;
   text-align: left;
 }
+
 #download_link :focus {
   outline: none;
   
 }
 #download_link :hover {
   outline: none;
+}
+#download_link::selection {
+  background: transparent;
+}
+#download_link {
+  user-select: none;
+}
+#download_link:focus {
+  box-shadow: none;
+  outline: none;
+  border: none;
+  
 }
