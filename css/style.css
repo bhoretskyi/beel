@@ -615,3 +615,10 @@ body {
   letter-spacing: 0%;
   text-align: left;
 }
+#download_link :focus {
+  outline: none;
+  
+}
+#download_link :hover {
+  outline: none;
+}
